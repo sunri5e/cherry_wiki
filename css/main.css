@@ -251,6 +251,8 @@ body {
       background: url(../img/ico-user.png); }
     .cw-page-title-icon.-new {
       background: url(../img/ico-new.png); }
+    .cw-page-title-icon.-new-user {
+      background: url(../img/ico-add-user.png); }
     .cw-page-title-icon.-list {
       background: url(../img/ico-list.png); }
     .cw-page-title-icon.-new-item {
@@ -661,5 +663,40 @@ select.cw-form_control {
       text-decoration: none; }
       .cw-articles-nav ul > li > a:hover {
         text-decoration: underline; }
+
+.cw-achors-link {
+  padding: 0;
+  margin: 0;
+  list-style-type: none; }
+  .cw-achors-link a {
+    font-size: 16px;
+    color: #868686;
+    text-transform: uppercase;
+    text-decoration: none; }
+    .cw-achors-link a:hover {
+      text-decoration: underline; }
+  .cw-achors-link ul {
+    padding: 0;
+    margin: 3px 0 25px 0;
+    list-style-type: none; }
+    .cw-achors-link ul a {
+      display: block;
+      padding: 3px 10px;
+      font-size: 14px;
+      text-transform: none; }
+      .cw-achors-link ul a:hover {
+        background: #84c7cd;
+        color: #fff;
+        text-decoration: none; }
+
+.cw-functional-menu {
+  margin: 0 0 0 20px;
+  padding: 0;
+  list-style-type: none; }
+  .cw-functional-menu li {
+    display: inline-block;
+    font-size: 14px; }
+    .cw-functional-menu li + li {
+      margin-left: 7px; }
 
 /* end Articles */
